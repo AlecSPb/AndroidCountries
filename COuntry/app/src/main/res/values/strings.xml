@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Country</string>
+    <string name="common_name">"Common: "</string>
+
+    <string name="official_name">"Official: "</string>
+
+    <string name="common_name_native">"Common(Native): "</string>
+    <string name="time_zone">"Time Zone: "</string>
+    <string name="language">"Language: "</string>
+    <string name="region">"Region: "</string>
+    <string name="km2">" km^2"</string>
+
+    <string name="subregion">"Subregion: "</string>
+
+    <string name="capital">"Capital: "</string>
+
+    <string name="demonym">"Demonym: "</string>
+
+    <string name="area">"Area: "</string>
+
+    <string name="alpha2">"ISO 3166-1 alpha-2: "</string>
+
+    <string name="alpha3">"ISO 3166-1 alpha-3: "</string>
+
+    <string name="numeric_code">"ISO 3166-1 numeric: "</string>
+
+    <string name="calling_code">"International calling code: "</string>
+
+    <string name="currency_code">"ISO 4217 currency code: "</string>
+
+    <string name="population">"Population: "</string>
+</resources>

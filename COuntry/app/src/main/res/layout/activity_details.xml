@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp">
+
+        <ImageView
+            android:id="@+id/imageView_flag"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp" />
+
+        <TextView
+            android:id="@+id/names"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView_flag"
+            android:layout_alignStart="@+id/imageView_flag"
+            android:layout_alignLeft="@+id/imageView_flag"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="#0e5955"
+            android:text="Names"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/common"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/names"
+            android:layout_alignStart="@+id/names"
+            android:layout_alignLeft="@+id/names"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Common: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/official"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/common"
+            android:layout_alignStart="@+id/common"
+            android:layout_alignLeft="@+id/common"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Official: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/common_native"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/official"
+            android:layout_alignStart="@+id/official"
+            android:layout_alignLeft="@+id/official"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Common_Native: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/common_native"
+            android:layout_alignStart="@+id/common_native"
+            android:layout_alignLeft="@+id/common_native"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Language: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/geography"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/language"
+            android:layout_alignStart="@+id/language"
+            android:layout_alignLeft="@+id/language"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="#0e5955"
+            android:text="Geography"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/region"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/geography"
+            android:layout_alignStart="@+id/geography"
+            android:layout_alignLeft="@+id/geography"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Region: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/subregion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/region"
+            android:layout_alignStart="@+id/region"
+            android:layout_alignLeft="@+id/region"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Subregion: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/capital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subregion"
+            android:layout_alignStart="@+id/subregion"
+            android:layout_alignLeft="@+id/subregion"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Capital: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/demonym"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/capital"
+            android:layout_alignStart="@+id/capital"
+            android:layout_alignLeft="@+id/capital"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Demonym: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/demonym"
+            android:layout_alignStart="@+id/demonym"
+            android:layout_alignLeft="@+id/demonym"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Area: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/time_zone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/area"
+            android:layout_alignStart="@+id/area"
+            android:layout_alignLeft="@+id/area"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Time Zone: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/codes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/time_zone"
+            android:layout_alignStart="@+id/time_zone"
+            android:layout_alignLeft="@+id/time_zone"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="#0e5955"
+            android:text="Codes"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/alpha2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/codes"
+            android:layout_alignStart="@+id/codes"
+            android:layout_alignLeft="@+id/codes"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Alpha2: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/alpha3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/alpha2"
+            android:layout_alignStart="@+id/alpha2"
+            android:layout_alignLeft="@+id/alpha2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Alpha3: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/numeric"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/alpha3"
+            android:layout_alignStart="@+id/alpha3"
+            android:layout_alignLeft="@+id/alpha3"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Numeric: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/calling_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/numeric"
+            android:layout_alignStart="@+id/numeric"
+            android:layout_alignLeft="@+id/numeric"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Calling Code: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/currency_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calling_code"
+            android:layout_alignStart="@+id/calling_code"
+            android:layout_alignLeft="@+id/calling_code"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Currency Code: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+</ScrollView>
